@@ -26,7 +26,11 @@ export default function App({navigation}) {
             <Image source={{uri: item.image}} style={{borderRadius:'10px',width:'250px', height:'90px', resizeMode:'cover', resizeMode:'cover',  marginVertical:'20px'}}/>
           </View>
           <View style={{flexDirection:'row'}}>
-            <TouchableOpacity style={{backgroundColor:'#f0f8ff',borderRadius:'10px', flexDirection:'row'}}>
+            <TouchableOpacity 
+            onPress={()=>{
+              navigation.navigate('Drinks');
+            }}
+            style={{backgroundColor:'#f0f8ff',borderRadius:'10px', flexDirection:'row'}}>
                <Image source={require('../assets/tick.png')}
                 style={{margin:'auto',width:'30px', height:'30px', resizeMode:'contain'}}/>
                 <Text style={{fontSize:'14px', fontWeight:'bold', color:'green', margin:'auto'}}>{item.status}</Text>
