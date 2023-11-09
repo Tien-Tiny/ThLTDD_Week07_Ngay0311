@@ -93,6 +93,9 @@ function Screen02({ navigation, route }) {
           return(
             <View style={{marginVertical:10,justifyContent:'center', width:'300px',height:'50px',alignItems:'center', backgroundColor:'#f0f8ff',
             borderRadius:'200px', borderWidth:1, flexDirection:'row'}}>
+               <Image
+          style={{ width: '30px', height: '30px', resizeMode: 'contain', flex: 1, marginTop: '20px' }}
+          source={require('./assets/icon copy.png')} />
               <Image source={require('./Data/tick.png')}
               style={{width:'20px', height:'20px', resizeMode:'contain'}} source={item.Image}/>
               <Text>{item.TenJob}</Text>
