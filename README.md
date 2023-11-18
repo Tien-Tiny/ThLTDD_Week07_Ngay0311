@@ -12,4 +12,6 @@
 ![Week7 3_Screen02](https://github.com/Tien-Tiny/ThLTDD_Week07_Ngay0311/assets/89054978/7f7b9140-f002-4b83-ad88-6c8709882fda)
 # Screen03:
 ![Week07_Screen03](https://github.com/Tien-Tiny/ThLTDD_Week07_Ngay0311/assets/89054978/211a319d-32d1-4dc4-9689-7a75ef4bd1c3)
+# ThLTDD_Week07_Ngay0311
+![Week07_BanhDonut](https://github.com/Tien-Tiny/ThLTDD_Week07_Ngay0311/assets/89054978/a749c2e4-908f-4220-951f-d695bbe94570)
 
